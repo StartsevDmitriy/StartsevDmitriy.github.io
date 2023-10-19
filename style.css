@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #F2FDFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+h1 {
+    background-color: #101935;
+    color: white;
+    font-size: 3rem;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+    
+}
+
+h2{
+    background-color: #9AD4D6;
+    padding: 0.5em;
+    border-radius: 3rem;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 6px 0 rgb(142, 142, 142);
+    transition: all ease-in-out .2s;
+
+}
+
+p {
+    color: #101935;
+    text-align: justify;
+    line-height: 1.5rem;
+
+}
+
+h2:hover {
+    box-shadow: 0 9px 14px 0 rgb(142, 142, 142);
+}
+
+main{
+    margin: 4rem;
+}
+
+header {
+    background-color: #101935;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 1rem;  
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+header a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #101935;
+    margin: 3rem auto;
+    box-shadow:  0px 4px 16px rgb(255, 132, 0);
+    transition: all ease-in-out .2s;
+    text-align: center;
+    line-height: 6rem;
+    color: white;
+}
+
+.circle:hover{
+    box-shadow:  0 8px 24px 0 rgb(255, 68, 0);
+
+}
