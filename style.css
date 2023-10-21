@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+main {
+    margin: 2rem 10rem; 
+}
+
+
+ul {
+    list-style-type: none;  
+    text-align: right; 
+    padding: 0.5rem;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+li a,
+li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: underline;
+    color: rgba(245, 245, 245, 0.859);
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    letter-spacing: 0.02rem;
+}
+
+.start {
+    margin-bottom: 3rem;
+}
+
+h2{
+    margin: 2rem 0 1rem;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    margin: 3rem 0 0 0;
+    padding: 2rem;
+    
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+main a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(140, 23, 95);
+
+}
+footer a{
+    color: inherit;
+}
+
+main a:hover,
+footer a:hover{
+    color: hsl(323, 72%, 50%);
+}
+
+.italic{
+    font-style: italic;
+}
+
+.thanks{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 3rem;
+    font-weight: 700;
+    background-color: rgb(236, 236, 236);
+    padding: 1rem;
+    border: 3px solid;
+    padding: 0;
+}
+
+.thanks p{
+    display: block;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.thanks a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.thanks a:hover{
+    background-color: rgb(225, 224, 224);
+    transition: all ease-in-out 0.2s;
+
+}
